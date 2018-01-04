@@ -1,7 +1,5 @@
 Trip Task
--Developer Details
-	-Name Reda Drehim
-	-EMAIL redadrehim@gmail.com
+-Creation Details
 	-Created Date 4th of JAN 2018
 -Requirements
 	-You are given a stack of boarding cards for various transportations that will take you from a point

@@ -2,9 +2,9 @@
 require_once('Trip_Sorter.php');
 $airportRoot=new AirportRoot('Barcelona', 'Gerona Airport');    
 $flightRoot1=new FlightRoot('Stockholm', 'New York JFK', '7B', 'SK22', '22');
-$TrainRoot=new TrainRoot('Madrid', 'Barcelona', '45B', '78A');
+$trainRoot=new TrainRoot('Madrid', 'Barcelona', '45B', '78A');
 $flightRoot2=new FlightRoot('Gerona Airport', 'Stockholm', '3A', 'SK455', '45B', '344');
-$roots=array($airportRoot,$flightRoot1,$TrainRoot,$flightRoot2);
+$roots=array($airportRoot,$flightRoot1,$trainRoot,$flightRoot2);
 $testTripRoot = new TripRoot($roots);
 $testTripSorter=$testTripRoot->getSortedRoots();
 ?>
